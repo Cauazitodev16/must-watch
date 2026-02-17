@@ -1,0 +1,152 @@
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 160, 72));
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 46px;
+    letter-spacing: 1px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    
+    text-align: center;
+    color: #000; 
+    margin-bottom: 50px;
+    font-size: 46px;
+    letter-spacing: 1px;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(0, 138, 92));; 
+    display: inline-block;      
+    padding: 10px 40px;         
+    border-radius: 10px;       
+}
+
+
+
+
+.formulario {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #21262d;
+    border-left: 5px solid #0a9f39;
+    padding: 16px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.tarefa:hover {
+    background-color: #2c313a;
+}
+
+.tarefa.info {
+    flex: 1;
+    font-size: 20px;
+    color: #000000;
+    word-break: break-word;
+}
+
+.tarefa.feita.info {
+    text-decoration: line-through;
+    color: #000000;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+
+}
+
+.lista-tarefas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.acoes {
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.acoes.check:hover {
+    color: #3fb950;
+    transform: scale(1.2);
+}
+
+.acoes .delete:hover {
+    color: #f85149;
+    transform: scale(1.2);
+}
+
+/* ========= RESPONSIVO ========= */
+@media (max-width: 600px) {
+    .formulario {
+        flex-direction: column;
+    }
+
+    .formulario input,
+    .formulario button {
+        width: 100%;
+    }
+
+    .acoes {
+        flex-direction: row;
+    }
+}
+
+a {
+    text-align: center;
+    color:rgb(10, 152, 0);
+    font-size: 26px;
+    letter-spacing: 1px;
+
+}
+
+.formulario button {
+    background: linear-gradient(135deg, #e9d11c, #97a316);
+    color: #183dc4;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.formulario button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(135deg, #16a34a, #15803d);
+}
+
+.formulario button:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.formulario button:focus {
+    outline: none;
+}

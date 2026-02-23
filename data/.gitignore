@@ -9,3 +9,8 @@ data/
 *.sqlite3
 
 .env
+
+venv/
+.env
+__pycache__/
+*.pyc

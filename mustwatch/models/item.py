@@ -1,5 +1,5 @@
 from .database import Database
-from typing import Self, Any, Optional
+from typing import Self, Optional
 from sqlite3 import Cursor
 
 class Item:

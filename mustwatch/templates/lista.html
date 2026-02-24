@@ -3,6 +3,8 @@
 {% block content %}
 
 <form class="mt-3" method="POST">
+    
+    <!-- Formulário para adicionar ou editar um item da lista, com campos para título, tipo e indicação -->
 
     <div class="mb-3">
         <label class="form-label">Título</label>
@@ -49,6 +51,7 @@
 
 <h2>Minha lista</h2>
 
+<!-- Exibindo a lista de itens cadastrados, com opções para editar ou deletar cada item -->
 {% if itens %}
 
 <ul class="list-group list-group-flush">

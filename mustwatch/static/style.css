@@ -6,7 +6,7 @@ p {
 }
 
 body {
-    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(89, 13, 210));
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(92, 223, 11));
     font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
@@ -29,7 +29,7 @@ h1 {
     letter-spacing: 1px;
     font-family: "Brush Script MT", "Brush Script Std", cursive;
 
-    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(18, 137, 177));; 
+    background: linear-gradient(135deg, rgb(0, 0, 0), rgb(35, 122, 1));; 
     display: inline-block;      
     padding: 10px 40px;         
     border-radius: 10px;       
